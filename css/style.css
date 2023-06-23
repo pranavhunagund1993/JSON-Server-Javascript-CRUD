@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;    
+}
+
+form {
+    height: 44vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+.form .form-group .form-control {
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.form .form-group label {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: slateblue;
+}
+
+.btn-warning { background-color: orangered;}
+.btn-success { background-color: green;}
+.btn-dark { background-color: #222;}
+
+
+.btn {
+    padding: 12px 14px;
+    font-size: 1.1em;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form  .btn:hover {
+    background-color: #a1a1a1;
+}
+
+
+section > table > thead > tr > th, section > table > tbody > tr > td{
+    border: 2px solid #ccc;
+    padding: 10px 35px;
+}
+
+.container table,tr,th,td {
+    border: 1px solid #222;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.container tr,th,td {
+    padding: 10px;
+}
+
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "username": "Prasad P Hunagund",
+      "email": "prasad@gmail.com",
+      "id": 2
+    },
+    {
+      "username": "Naveen Nelavagi C",
+      "email": "naveennelavagi@gmail.com",
+      "id": 3
+    },
+    {
+      "username": "Pranav P Hunagund",
+      "email": "pranavhunagund@gmail.com",
+      "id": 5
+    },
+    {
+      "username": "Sourabh Hulloli",
+      "email": "sourabhhulloli@gmail.com",
+      "id": 6
+    },
+    {
+      "username": "Sumanth Mayakar",
+      "email": "sumanth@gmail.com",
+      "id": 7
+    }
+  ]
+}
